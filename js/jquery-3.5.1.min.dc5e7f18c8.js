@@ -201,8 +201,10 @@
           r = 0;
         if (p(e)) {
           for (n = e.length; r < n; r++)
-            if (!1 === t.call(e[r], r, e[r])) break;
-        } else for (r in e) if (!1 === t.call(e[r], r, e[r])) break;
+            if (t.call(e[r], r, e[r]) === false) break;
+        } else {
+          for (r in e) if (t.call(e[r], r, e[r]) === false) break;
+        }
         return e;
       },
       makeArray: function (e, t) {

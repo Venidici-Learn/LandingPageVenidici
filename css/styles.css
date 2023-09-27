@@ -3157,8 +3157,8 @@ blockquote {
 }
 
 .certificados.modal-investimento {
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
   display: none
 }
 
@@ -3167,8 +3167,8 @@ blockquote {
 }
 
 .certificados.modal-investimento {
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
   display: none
 }
 
@@ -3476,8 +3476,8 @@ blockquote {
 }
 
 .team-pricing {
-  grid-column-gap: 0em;
-  grid-row-gap: 0em;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
   flex-wrap: nowrap;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -3960,7 +3960,7 @@ blockquote {
 }
 
 .post-grid {
-  grid-column-gap: 0px;
+  grid-column-gap: 0;
   grid-row-gap: 0px;
   grid-template-rows: auto;
   grid-template-columns: .25fr 1.5fr .25fr
@@ -5058,7 +5058,6 @@ blockquote {
 
 .section-under-navbar.bg-tile-top-lg.bg-sky-900 {
   -webkit-text-fill-color: inherit;
-  -webkit-text-fill-color: inherit;
   background-color: rgba(255, 255, 255, .21);
   background-image: linear-gradient(rgba(13, 17, 23, 0) 85%, #000), linear-gradient(#000, rgba(13, 17, 23, 0) 15%), radial-gradient(circle farthest-side, rgba(13, 17, 23, 0), #000), url(../images/645baaf6d280a2f8e3676c90_bg-tile-dark.svg);
   background-position: 0 0, 0 0, 0 0, 50%;
@@ -6014,7 +6013,7 @@ blockquote {
 .process-steps-indicator {
   width: 3em;
   height: 3em;
-  outline-offset: 0px;
+  outline-offset: 0;
   background-color: #1d1d1d;
   border: 5px solid #e6e6e6;
   border-radius: 9999px;
@@ -6193,7 +6192,7 @@ blockquote {
 }
 
 .side-by-side-2-to-1 {
-  grid-column-gap: 0em;
+  grid-column-gap: 0;
   grid-row-gap: 5em;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1.25fr;
@@ -6528,7 +6527,6 @@ blockquote {
 
 .logo-levitate-6.fade-in-on-scroll {
   object-fit: contain;
-  object-fit: contain;
   border-radius: 8px
 }
 
@@ -6611,7 +6609,7 @@ blockquote {
 
 .onboarding-card {
   height: 100%;
-  outline-offset: 0px;
+  outline-offset: 0;
   background-color: #171e25;
   border-radius: .5em;
   outline: 1px solid #1e252c;
@@ -7106,8 +7104,8 @@ blockquote {
 }
 
 .blog-breadcrumb-links {
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
   grid-template-rows: auto;
   grid-template-columns: auto;
   grid-auto-columns: auto;
@@ -8017,7 +8015,7 @@ blockquote {
 
 .side-by-side-1-to-1-2 {
   width: 100%;
-  grid-column-gap: 0em;
+  grid-column-gap: 0;
   grid-row-gap: 5em;
   text-align: center;
   grid-template-rows: auto;
@@ -9252,7 +9250,7 @@ blockquote {
 .jobs-benefits {
   width: 100%;
   grid-column-gap: 20px;
-  grid-row-gap: 0px;
+  grid-row-gap: 0;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -15676,11 +15674,8 @@ blockquote {
 
   .certificados.modal-investimento {
     max-width: 100%;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    max-width: 100%;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
     display: flex
   }
 
@@ -15893,7 +15888,7 @@ blockquote {
   }
 
   .navbar-list-4 {
-    grid-column-gap: 0px
+    grid-column-gap: 0;
   }
 
   .navbar-list-4.navbar-minicurso {
@@ -15960,7 +15955,7 @@ blockquote {
   }
 
   .what-s-pro-comparation {
-    grid-column-gap: 0px;
+    grid-column-gap: 0;
     flex-wrap: wrap;
     justify-content: space-around
   }
@@ -16107,7 +16102,7 @@ blockquote {
   }
 
   .lightbox-link.lightbox-minicurso {
-    outline-offset: 0px;
+    outline-offset: 0;
     border-radius: 0;
     outline: 1px #eff4f8;
     transition-property: none
@@ -17093,7 +17088,7 @@ blockquote {
   }
 
   .presentation-column {
-    grid-column-gap: 0px;
+    grid-column-gap: 0;
     grid-row-gap: 60px;
     flex-flow: column wrap;
     align-content: stretch;
@@ -25641,7 +25636,7 @@ blockquote {
   justify-self: start
 }
 
-#w-node-_14ffa61d-a398-1ac1-a752-0ac088847c0b-4e47e062 {
+.w-node-_14ffa61d-a398-1ac1-a752-0ac088847c0b-4e47e062 {
   align-self: end
 }
 
